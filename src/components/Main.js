@@ -3,7 +3,7 @@ import TodoItems from './TodoItems.js';
 function Main({ todos }) {
     return (
         <main>
-            <Todos todos={todos} />
+            <TodoItems todos={todos} />
         </main>
     );
 }
